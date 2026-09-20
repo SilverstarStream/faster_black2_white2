@@ -1,0 +1,138 @@
+- a003:
+651
+
+- a056:
+0076
+0194
+0196 (PWT patch)
+0222
+0240
+0242
+0384 (PWT patch)
+0662
+0824
+0854
+0856
+0878
+0880
+0890
+0892
+0896
+0976
+0978
+0990
+1004
+1030 (version-dependent)
+1112
+1114
+1208
+1284
+
+- a126:
+066 (version-dependent)
+163
+174
+194
+306
+482
+497
+599
+
+- ftc:
+overlay_35
+overlay_294
+arm9.bin
+y9.bin
+
+----------------------------------------------------------------
+
+a003, a056, and a126 NARCs are each identical between clean B2 and W2 ROMs.
+
+The following files are version-specific in the modified ROM:
+a056.1030
+a126.066
+ftc/*
+
+
+For faster PWT:
+a056.0196 needs to be the stubbed version
+a056.0384 needs to be the flag-setting version
+
+For skipped PWT:
+a056.0196 needs to be the flag-setting version
+a056.0384 can be clean
+
+----------------------------------------------------------------
+2026 changed files:
+
+- a003:
+651: Floccesy Town. Friendship NPC's message.
+
+- a056:
+0076: Castellia "Prime Pier". extended to set flags around Castellia (script was also edited for 2022 hack)
+0194: Driftveil Gym. set pre-PWT flags.
+0196: Driftveil Gym lobby. set post-PWT flags
+0222: Mistralton airport. skip plane scene and the Lentimas cutscene.
+0240: Opelucid city. Post Triad battle. Sets flags for Humilau.
+0242: Opelucid Gym. Sets flags to skip Frigate scene of freezing Opelucid.
+0384: PWT lobby. Set post-PWT flags
+0662: Route 6. Make Cheren giving the HM faster, skip Cobalion, and Chargestone Bianca.
+0824: Undella Town. Sets flags to skip Lacunosa scenes.
+0856: Player's House. Rework of the existing mod. (rework of script edited for 2022 hack)
+0878: Floccesy Town. Friendship NPC (script was also edited for 2022 hack)
+0890: Flocessy Ranch. Updated first battle. Adjusted healing NPC. (script was also edited for 2022 hack)
+0892: Route 20. Skip cutscene with Cheren and Hugh that gives Pechas
+0896: Virbank City. Skip Xtranceiver call and deal with the flags a little better (script was also edited for 2022 hack)
+0976: Burgh's room. Set flags to skip Colress in Castellia
+0990: Castellia Sewers main area: shorten cutscene after multi battle
+1004: Virbank Gym. Sets flags for Pokestar and the following Plasma stuff (script was also edited for 2022 hack)
+1030: Seaside Cave. Skip Route 21's Marlon lowering the frigate gangplank (randomizer-touched, version dependent)
+1112: Plasma Frigate (Humilau). Skip 3D scene. (randomizer-touched)
+1114: Plasma Frigate Triad Room (Chasm). set flags for Giant Chasm Kyurem
+1208: Giant Chasm. Skip the long cutscenes. (randomizer-touched)
+1284: (global script) Pokestar sound stage. Mainly have the studio hand give hiker's items. (redone from scratch, no 2022 used)
+
+- a126:
+066: Nimbasa City. Warp to Route 4 (skip Join Ave) (edit is version-dependent)
+174: Virbank City. Warp to Pokestar sound stage.
+194: Pokestar sound stage. warp to Virbank.
+306: Floccesy Ranch. Changed properties of the healer female rancher NPC.
+482: Route 4 B2. Warp to Nimbasa (skip Join Ave)
+497: Route 4 W2. Warp to Nimbasa (skip Join Ave)
+599: Floccesy Town. Properties of an NPC changed (for the friendship NPC).
+
+- ftc:
+overlay_294: Shorten Juniper's "welcome to the world" intro
+y9.bin: mark overlays 35 and 294 as uncompressed (was also edited for 2022 hack)
+
+----------------------------------------------------------------
+2022 changed files:
+
+- a056:
+0076: Castellia "Prime Pier"
+0854: Aspertia City (randomizer-touched)
+0856: Player's house
+0858: The other house in Aspertia leveraged to set up flags.
+0878: Floccesy Town
+0880: Alder's house (randomizer-touched)
+0890: Flocessy Ranch
+0896: Virbank City
+0978: Aspertia Gym
+1004: Virbank Gym
+1132: Pokestar main area
+1133: Pokestar main area (level script)
+1148: Pokestar theater
+1284: Pokestar sound stage
+
+- a003:
+201: Pokestar theater
+
+- a126:
+163: Aspertia City main. I think this was edited for script call redirection, probably for CGear cutscene?
+192: Pokestar main area. I believe this was edited to change the condition on the initialization script
+195: Pokestar theater. edited to change an NPC to stand in front of the receptionist
+
+- ftc:
+overlay_35: skip the Aspertia cutscene with the leaves/petals/snowflakes and mom after Juniper's "welcome to the world" intro
+arm9.bin: load the player's house as the inital zone instead of Aspertia City
+y9.bin: mark overlay 35 as uncompressed
