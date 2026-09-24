@@ -3,6 +3,7 @@
 
 - a056:
 0076
+0124
 0194
 0196 (PWT patch)
 0222
@@ -70,6 +71,7 @@ a056.0384 can be clean
 
 - a056:
 0076: Castellia "Prime Pier". extended to set flags around Castellia (script was also edited for 2022 hack)
+0124: Nimbasa City. set hidden grotto flags.
 0194: Driftveil Gym. set pre-PWT flags.
 0196: Driftveil Gym lobby. set post-PWT flags
 0222: Mistralton airport. skip plane scene and the Lentimas cutscene.
