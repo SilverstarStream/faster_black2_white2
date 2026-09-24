@@ -6,6 +6,7 @@
 0124
 0194
 0196 (PWT patch)
+0214
 0222
 0240
 0242
@@ -74,8 +75,9 @@ a056.0384 can be clean
 0124: Nimbasa City. set hidden grotto flags.
 0194: Driftveil Gym. set pre-PWT flags.
 0196: Driftveil Gym lobby. set post-PWT flags
+0214: Mistralton City. Shorten Juniper and Skyla's cutscene when entering Mistralton.
 0222: Mistralton airport. skip plane scene and the Lentimas cutscene.
-0240: Opelucid city. Post Triad battle. Sets flags for Humilau.
+0240: Opelucid City. Post Triad battle. Sets flags for Humilau.
 0242: Opelucid Gym. Sets flags to skip Frigate scene of freezing Opelucid.
 0384: PWT lobby. Set post-PWT flags
 0662: Route 6. Make Cheren giving the HM faster, skip Cobalion, and Chargestone Bianca.
