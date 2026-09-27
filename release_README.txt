@@ -1,4 +1,4 @@
-This is a patch for Pokemon Black 2 and White 2 to remove cutscenes across the game.
+This is a hack for Pokemon Black 2 and White 2 to remove cutscenes across the game.
 The hack is designed and tested to be compatible with the ZX fork of the randomizer (https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases), and tested to be playable on original consoles.
 
 These patches require a clean English ROM for the patch to be applied. Using a non-clean ROM will likely not work.
@@ -14,14 +14,14 @@ MD5: 0AFC7974C393265D8CF23379BE232A1C
 ----------------------------------------------------------------
 How to apply the patch:
 Using https://www.marcrobledo.com/RomPatcher.js or any xdelta patcher of your preference, select the BW2 ROM file for the clean file.
-Then select the matching patch file.
+Then select the appropriate patch file.
 Finally press apply patch to create a new ROM file.
 If using this patch with the randomizer, load the patched ROM from above into the randomizer. There will be a warning about the ROM not being clean, which is expected due to the patch. Then randomize like normal.
 
 
 There are two versions of the patch available:
-1. The standard patch skips many cutscenes present the clean game. It removes some of the cutscenes around the mandatory Driftveil Tournament in the Pokemon World Tournament area, and does not remove any battles.
-2. The skipPWT patch includes all of the changes from the standard patch, and skips the entirety of the Driftveil Tournament.
+1. The standard patch skips many cutscenes present in BW2. It removes some of the cutscenes around the mandatory Driftveil Tournament in the Pokemon World Tournament area, and does not remove any battles.
+2. The skipPWT patch includes all of the changes from the standard patch, and skips the entirety of the Driftveil Tournament, including its 3 battles.
 
 Play with whichever patch you feel best fits whichever self-imposed ruleset you are playing with.
 
@@ -34,7 +34,7 @@ Some information about PWT's Driftveil Tournament:
 Credits:
 Patch created by SilverstarStream. https://github.com/SilverstarStream/faster_black2_white2
 CUE: the Nintendo DS/GBA BLZ (de)compressor, for decompressing the arm9 assembly and its overlays.
-Hello007: CTRMap, for general map value referencing.
+Hello007: CTRMap with CTRMapV, for general map value referencing.
 PlatinumMaster: SwissArmyKnife (Avalonia), for text and script referencing and text editing.
 brom: the research into Juniper's "welcome to the world" intro. https://docs.google.com/spreadsheets/d/17_s9_ZaZ6p-292oCnaoVsKOWtDKkDVtVmlYtuxCIl_s
 R-YaTian: TinkeDSi, forked from MetLob's TinkeDSi, forked from pleonex's Tinke, for DS ROM repacking.
