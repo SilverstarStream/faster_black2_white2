@@ -4,7 +4,7 @@ This is a hack for Pokemon Black 2 and White 2 to remove cutscenes across the ga
 The hack is designed and tested to be compatible with the [ZX fork](https://github.com/Ajarmar/universal-pokemon-randomizer-zx/releases) of the randomizer, and tested to be playable on original consoles.
 
 ### Get the patch:
-- Select the Resources option from the sidebar on the right side of this page.
+- Select the Releases option from the sidebar on the right side of this page.
 - Download `BW2_Faster.zip`.
 - Unzip the downloaded zip folder.
 - The README included in the download has patching instructions.
@@ -51,6 +51,8 @@ Alternatively, it should be much easier to dump the files from the patched ROM d
 The output ROMs were assembled using the 2022/09/01 build of [TinkeDSi](https://github.com/R-YaTian/TinkeDSi).
 \
 (Trimmed) ROMs can also be assembled using [CTRMap](https://github.com/ds-pokemon-hacking/CTRMap-CE/releases) with the [CTRMapV](https://github.com/ds-pokemon-hacking/CTRMapV/releases) plug-in installed.
+
+The xdelta patches were generated with xdelta 3.0 in order to be compatible with [www.marcrobledo.com/RomPatcher.js](https://www.marcrobledo.com/RomPatcher.js).
 
 ### Credits
 CUE: the Nintendo DS/GBA BLZ (de)compressor, for decompressing the arm9 assembly and its overlays.
